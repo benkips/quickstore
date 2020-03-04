@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_dealer">
+
+        <item>Phones</item>
+        <item>Shoes</item>
+        <item>Women</item>
+        <item>Men</item>
+        <item>Computers</item>
+        <item>Kitchen</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".CommerceController">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:text="Quickstore- Choose action"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgAddItem"
+                android:layout_width="100dp"
+                android:src="@drawable/addprod"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"/>
+
+            <ImageView
+                android:id="@+id/imgDeleteItem"
+                android:layout_width="100dp"
+                android:src="@drawable/manage"
+                android:layout_height="100dp"
+                android:layout_marginLeft="60dp"/>
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textSize="14sp"
+            android:text="Add product"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:textSize="14sp"
+            android:text="Manage product"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgViewSales"
+                android:layout_width="100dp"
+                android:src="@drawable/sales"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"/>
+
+            <ImageView
+                android:id="@+id/imgAnalysis"
+                android:layout_width="100dp"
+                android:src="@drawable/analysis"
+                android:layout_height="100dp"
+                android:layout_marginLeft="60dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:textSize="14sp"
+                android:text="View sales"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:textSize="14sp"
+                android:text="Analysis"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgUsers"
+                android:layout_width="100dp"
+                android:src="@drawable/users"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"/>
+
+            <ImageView
+                android:id="@+id/imgOrders"
+                android:layout_width="100dp"
+                android:src="@drawable/orders"
+                android:layout_height="100dp"
+                android:layout_marginLeft="60dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="60dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:textSize="14sp"
+                android:text="Users"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:textSize="14sp"
+                android:text="Orders"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
